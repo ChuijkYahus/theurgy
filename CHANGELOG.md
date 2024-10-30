@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [release/v1.20.1-1.23.0] - 2024-10-30
+### :sparkles: New Features
+- [`7a4cdbc`](https://github.com/klikli-dev/theurgy/commit/7a4cdbcb75d77866622939aedf04d25e763d9f4a) - Update zh_cn for 1.20.1 *(PR [#221](https://github.com/klikli-dev/theurgy/pull/221) by [@ChuijkYahus](https://github.com/ChuijkYahus))*
+
+
 ## [release/v1.20.1-1.22.0] - 2024-10-27
 ### :sparkles: New Features
 - [`06add39`](https://github.com/klikli-dev/theurgy/commit/06add39b8b1ff62e379de7e1f786bfd3a68f1523) - add serverconfig additionalTooltipHandlerNamespaces *(commit by [@klikli-dev](https://github.com/klikli-dev))*
@@ -540,3 +545,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [release/v1.20.1-1.21.2]: https://github.com/klikli-dev/theurgy/compare/release/v1.20.1-1.21.1...release/v1.20.1-1.21.2
 [release/v1.20.1-1.21.3]: https://github.com/klikli-dev/theurgy/compare/release/v1.20.1-1.21.2...release/v1.20.1-1.21.3
 [release/v1.20.1-1.22.0]: https://github.com/klikli-dev/theurgy/compare/release/v1.20.1-1.21.3...release/v1.20.1-1.22.0
+[release/v1.20.1-1.23.0]: https://github.com/klikli-dev/theurgy/compare/release/v1.20.1-1.22.0...release/v1.20.1-1.23.0
