@@ -322,6 +322,7 @@ public class ReformationRecipeProvider extends JsonRecipeProvider {
         this.makeNiterToSulfurRecipe(NiterRegistry.MOBS_RARE.get(), 2, SulfurRegistry.WITHER_SKELETON_SKULL.get(), 1, false);
         this.makeNiterToSulfurRecipe(NiterRegistry.MOBS_RARE.get(), 2, SulfurRegistry.GHAST_TEAR.get(), 1, false);
         this.makeNiterToSulfurRecipe(NiterRegistry.MOBS_RARE.get(), 2, SulfurRegistry.SHULKER_SHELL.get(), 1, false);
+        this.makeNiterToSulfurRecipe(NiterRegistry.MOBS_RARE.get(), 2, SulfurRegistry.ELYTRA.get(), 1, false);
         this.makeNiterToSulfurRecipe(NiterRegistry.MOBS_PRECIOUS.get(), 2, SulfurRegistry.NETHER_STAR.get(), 1, false);
         this.makeNiterToSulfurRecipe(NiterRegistry.MOBS_PRECIOUS.get(), 4, SulfurRegistry.DRAGON_EGG.get(), 1, false);
         this.makeNiterToSulfurRecipe(NiterRegistry.MOBS_PRECIOUS.get(), 2, SulfurRegistry.HEART_OF_THE_SEA.get(), 1, false);

@@ -207,6 +207,11 @@ public class FermentationRecipeProvider extends JsonRecipeProvider {
                 .ingredients(SulfurRegistry.SHULKER_SHELL.get())
                 .ingredients(cropTag)
                 .time(TIME));
+        this.makeRecipe("_from_" + this.name(SulfurRegistry.ELYTRA.get()) + "_using_" + this.name(cropTag), new Builder(NiterRegistry.MOBS_RARE, 2)
+                .fluid(Fluids.WATER, 500)
+                .ingredients(SulfurRegistry.ELYTRA.get())
+                .ingredients(cropTag)
+                .time(TIME));
 
         this.makeRecipe("_using_" + this.name(cropTag), new Builder(NiterRegistry.MOBS_PRECIOUS)
                 .fluid(Fluids.WATER, 1000)
