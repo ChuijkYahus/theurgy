@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [release/v1.21.1-1.58.1] - 2024-11-08
+### :bug: Bug Fixes
+- [`d879c4a`](https://github.com/klikli-dev/theurgy/commit/d879c4a02ad1f04f6ba2356c57f2d164680978b5) - no recipe for elytra sulfur replication *(commit by [@klikli-dev](https://github.com/klikli-dev))*
+
+
 ## [release/v1.21.1-1.58.0] - 2024-10-30
 ### :sparkles: New Features
 - [`81865bc`](https://github.com/klikli-dev/theurgy/commit/81865bc163aa4b6fe1de2760d302100e646606d7) - Update zh_cn for 1.21.1 *(PR [#222](https://github.com/klikli-dev/theurgy/pull/222) by [@ChuijkYahus](https://github.com/ChuijkYahus))*
@@ -1183,3 +1188,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [release/v1.21.1-1.56.2]: https://github.com/klikli-dev/theurgy/compare/release/v1.21.1-1.56.1...release/v1.21.1-1.56.2
 [release/v1.21.1-1.57.0]: https://github.com/klikli-dev/theurgy/compare/release/v1.21.1-1.56.2...release/v1.21.1-1.57.0
 [release/v1.21.1-1.58.0]: https://github.com/klikli-dev/theurgy/compare/release/v1.21.1-1.57.0...release/v1.21.1-1.58.0
+[release/v1.21.1-1.58.1]: https://github.com/klikli-dev/theurgy/compare/release/v1.21.1-1.58.0...release/v1.21.1-1.58.1
