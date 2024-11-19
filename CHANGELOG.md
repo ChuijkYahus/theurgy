@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [release/v1.20.1-1.23.1] - 2024-11-19
+### :wrench: Chores
+- [`3876450`](https://github.com/klikli-dev/theurgy/commit/38764501d6ae93cdd99c055ffd7b4dacee4c2b74) - update discord invite link *(commit by [@klikli-dev](https://github.com/klikli-dev))*
+
+
 ## [release/v1.20.1-1.23.0] - 2024-10-30
 ### :sparkles: New Features
 - [`7a4cdbc`](https://github.com/klikli-dev/theurgy/commit/7a4cdbcb75d77866622939aedf04d25e763d9f4a) - Update zh_cn for 1.20.1 *(PR [#221](https://github.com/klikli-dev/theurgy/pull/221) by [@ChuijkYahus](https://github.com/ChuijkYahus))*
@@ -546,3 +551,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [release/v1.20.1-1.21.3]: https://github.com/klikli-dev/theurgy/compare/release/v1.20.1-1.21.2...release/v1.20.1-1.21.3
 [release/v1.20.1-1.22.0]: https://github.com/klikli-dev/theurgy/compare/release/v1.20.1-1.21.3...release/v1.20.1-1.22.0
 [release/v1.20.1-1.23.0]: https://github.com/klikli-dev/theurgy/compare/release/v1.20.1-1.22.0...release/v1.20.1-1.23.0
+[release/v1.20.1-1.23.1]: https://github.com/klikli-dev/theurgy/compare/release/v1.20.1-1.23.0...release/v1.20.1-1.23.1
