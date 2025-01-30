@@ -36,6 +36,7 @@ public class FollowProjectile extends ColoredProjectile {
     public static final EntityDataAccessor<Float> ARRIVAL_DISTANCE = SynchedEntityData.defineId(FollowProjectile.class, EntityDataSerializers.FLOAT);
     private int maxAge = 500;
     private int age;
+    private long spawnTime = -1;
 
     private Consumer<FollowProjectile> onArrival;
 
@@ -122,10 +123,11 @@ public class FollowProjectile extends ColoredProjectile {
         super.tick();
 
         this.age++;
-        if (this.age > this.maxAge) {
+        if (this.age > this.maxAge || this.level().getGameTime() - this.spawnTime > this.maxAge) {
             this.remove(RemovalReason.DISCARDED);
             return;
         }
+
         Vec3 deltaMovement = this.getDeltaMovement();
         Vec3 to = this.entityData.get(FollowProjectile.TO);
         Vec3 from = this.entityData.get(FollowProjectile.FROM);
@@ -248,4 +250,10 @@ public class FollowProjectile extends ColoredProjectile {
         return this.entityData.get(FollowProjectile.FROM);
     }
 
+    @Override
+    public void onAddedToWorld() {
+        super.onAddedToWorld();
+
+        this.spawnTime = this.level().getGameTime();
+    }
 }
