@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [release/v1.20.1-1.23.2] - 2025-01-30
+### :bug: Bug Fixes
+- [`cf1dcde`](https://github.com/klikli-dev/theurgy/commit/cf1dcdebc24575d209cb5f4757496beb919c454c) - add tick-independent max lifetime to follow projectile *(commit by [@klikli-dev](https://github.com/klikli-dev))*
+
+
 ## [release/v1.20.1-1.23.1] - 2024-11-19
 ### :wrench: Chores
 - [`3876450`](https://github.com/klikli-dev/theurgy/commit/38764501d6ae93cdd99c055ffd7b4dacee4c2b74) - update discord invite link *(commit by [@klikli-dev](https://github.com/klikli-dev))*
@@ -552,3 +557,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [release/v1.20.1-1.22.0]: https://github.com/klikli-dev/theurgy/compare/release/v1.20.1-1.21.3...release/v1.20.1-1.22.0
 [release/v1.20.1-1.23.0]: https://github.com/klikli-dev/theurgy/compare/release/v1.20.1-1.22.0...release/v1.20.1-1.23.0
 [release/v1.20.1-1.23.1]: https://github.com/klikli-dev/theurgy/compare/release/v1.20.1-1.23.0...release/v1.20.1-1.23.1
+[release/v1.20.1-1.23.2]: https://github.com/klikli-dev/theurgy/compare/release/v1.20.1-1.23.1...release/v1.20.1-1.23.2
