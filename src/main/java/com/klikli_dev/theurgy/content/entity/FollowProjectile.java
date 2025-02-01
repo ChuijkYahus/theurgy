@@ -256,11 +256,4 @@ public class FollowProjectile extends ColoredProjectile {
 
         this.spawnTime = this.level().getGameTime();
     }
-
-    @Override
-    public boolean isAlwaysTicking() {
-        //this should prevent buildup of particles on non-ticking chunks on the client.
-        //Alternatively we could get the client level entity storage and check for .getStatus().isTicking() before spawning the particle
-        return true;
-    }
 }
