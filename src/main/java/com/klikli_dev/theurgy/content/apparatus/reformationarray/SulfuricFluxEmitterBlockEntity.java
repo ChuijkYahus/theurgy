@@ -382,7 +382,7 @@ public class SulfuricFluxEmitterBlockEntity extends BlockEntity {
                 });
                 projectile.setDeltaMovement(normal.scale(0.3f));
 
-                EntityUtil.spawnEntityClientSide(emitter.level, projectile);
+                EntityUtil.spawnEntityClientSide(emitter.level, projectile, true);
             }
         }
 
@@ -401,7 +401,7 @@ public class SulfuricFluxEmitterBlockEntity extends BlockEntity {
                     //the scale is "force" with which the projectile starts moving in the direction of the normal
                     projectile.setDeltaMovement(normal.scale(0.3f));
 
-                    EntityUtil.spawnEntityClientSide(emitter.level, projectile);
+                    EntityUtil.spawnEntityClientSide(emitter.level, projectile, true);
                 }
             }
         }
@@ -417,7 +417,7 @@ public class SulfuricFluxEmitterBlockEntity extends BlockEntity {
                 //the scale is "force" with which the projectile starts moving in the direction of the normal
                 projectile.setDeltaMovement(normal.scale(0.3f));
 
-                EntityUtil.spawnEntityClientSide(emitter.level, projectile);
+                EntityUtil.spawnEntityClientSide(emitter.level, projectile, true);
             }
         }
     }

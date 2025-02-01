@@ -60,7 +60,7 @@ public class MessageShowCaloricFlux implements Message {
             FollowProjectile projectile = new FollowProjectile(level, from, to, COLOR, 0.1f);
             projectile.setDeltaMovement(normal.scale(0.3f));
 
-            EntityUtil.spawnEntityClientSide(level, projectile);
+            EntityUtil.spawnEntityClientSide(level, projectile, true);
         }
     }
 
