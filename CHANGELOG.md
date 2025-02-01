@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [release/v1.20.1-1.23.4] - 2025-02-01
+### :bug: Bug Fixes
+- [`8776cfb`](https://github.com/klikli-dev/theurgy/commit/8776cfb56ea7fddf39e7270819a577ddcd6f2e8b) - one more attempt to prevent follow particle pullup Closes [#239](https://github.com/klikli-dev/theurgy/pull/239) (again) *(commit by [@klikli-dev](https://github.com/klikli-dev))*
+
+
 ## [release/v1.20.1-1.23.3] - 2025-02-01
 ### :bug: Bug Fixes
 - [`ef60435`](https://github.com/klikli-dev/theurgy/commit/ef6043586b635535dee6d50ffbe1c6c925cf1a3e) - another attempt to prevent follow projectile buildup *(commit by [@klikli-dev](https://github.com/klikli-dev))*
@@ -564,3 +569,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [release/v1.20.1-1.23.1]: https://github.com/klikli-dev/theurgy/compare/release/v1.20.1-1.23.0...release/v1.20.1-1.23.1
 [release/v1.20.1-1.23.2]: https://github.com/klikli-dev/theurgy/compare/release/v1.20.1-1.23.1...release/v1.20.1-1.23.2
 [release/v1.20.1-1.23.3]: https://github.com/klikli-dev/theurgy/compare/release/v1.20.1-1.23.2...release/v1.20.1-1.23.3
+[release/v1.20.1-1.23.4]: https://github.com/klikli-dev/theurgy/compare/release/v1.20.1-1.23.3...release/v1.20.1-1.23.4
