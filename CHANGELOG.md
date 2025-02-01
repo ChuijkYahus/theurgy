@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [release/v1.21.1-1.58.5] - 2025-02-01
+### :bug: Bug Fixes
+- [`f53ae5f`](https://github.com/klikli-dev/theurgy/commit/f53ae5f3072cb535a8286145d22329124a29bcdd) - one more attempt to prevent follow particle pullup Closes [#239](https://github.com/klikli-dev/theurgy/pull/239) (again) *(commit by [@klikli-dev](https://github.com/klikli-dev))*
+
+
 ## [release/v1.21.1-1.58.2] - 2024-11-19
 ### :wrench: Chores
 - [`62b8961`](https://github.com/klikli-dev/theurgy/commit/62b8961597258500dfb5a9353a0adff2655657a6) - update discord invite link *(commit by [@klikli-dev](https://github.com/klikli-dev))*
@@ -1195,3 +1200,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [release/v1.21.1-1.58.0]: https://github.com/klikli-dev/theurgy/compare/release/v1.21.1-1.57.0...release/v1.21.1-1.58.0
 [release/v1.21.1-1.58.1]: https://github.com/klikli-dev/theurgy/compare/release/v1.21.1-1.58.0...release/v1.21.1-1.58.1
 [release/v1.21.1-1.58.2]: https://github.com/klikli-dev/theurgy/compare/release/v1.21.1-1.58.1...release/v1.21.1-1.58.2
+[release/v1.21.1-1.58.5]: https://github.com/klikli-dev/theurgy/compare/release/v1.21.1-1.58.4...release/v1.21.1-1.58.5
