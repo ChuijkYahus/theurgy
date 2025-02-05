@@ -7,6 +7,7 @@
 
 package com.klikli_dev.theurgy.logistics;
 
+import com.klikli_dev.theurgy.content.render.RenderTypes;
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import it.unimi.dsi.fastutil.objects.ObjectOpenHashSet;
@@ -43,7 +44,7 @@ public class WireRenderer {
         poseStack.translate(-renderPosX, -renderPosY, -renderPosZ);
 
         //we use lines() to avoid all the wires getting connected as it would happen with linestrip
-        var buffer = bufferSource.getBuffer(RenderType.lines());
+        var buffer = bufferSource.getBuffer(RenderTypes.distanceLines());
         for (var wire : this.wires) {
             poseStack.pushPose();
             poseStack.translate(wire.from().getX(), wire.from().getY(), wire.from().getZ());
