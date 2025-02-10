@@ -146,6 +146,7 @@ public class Theurgy {
             modEventBus.addListener(Client::onRegisterMenuScreens);
             modEventBus.addListener(BlockOverlays::onTextureAtlasStitched);
             modEventBus.addListener(KeyMappingsRegistry::onRegisterKeyMappings);
+            modEventBus.addListener(ShaderRegistry::onRegisterShaders);
             NeoForge.EVENT_BUS.addListener(Client::onRenderLevelStage);
             NeoForge.EVENT_BUS.addListener(Client::onClientTick);
             NeoForge.EVENT_BUS.addListener(Client::onRecipesUpdated);

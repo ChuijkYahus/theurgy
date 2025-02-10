@@ -12,12 +12,35 @@ import com.mojang.blaze3d.vertex.VertexFormat;
 import net.minecraft.Util;
 import net.minecraft.client.renderer.RenderStateShard;
 import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.ShaderInstance;
 import net.minecraft.client.renderer.texture.TextureAtlas;
 import net.minecraft.resources.ResourceLocation;
 
+import java.util.OptionalDouble;
 import java.util.function.Function;
 
 public class RenderTypes extends RenderStateShard {
+
+    public static ShaderInstance rendertypeDistanceLines;
+    protected static final ShaderStateShard RENDERTYPE_DISTANCE_LINES_SHADER = new ShaderStateShard(() -> rendertypeDistanceLines);
+
+    protected static final RenderType DISTANCE_LINES = RenderType.create(
+           "distance_lines",
+            DefaultVertexFormat.POSITION_COLOR_NORMAL,
+            VertexFormat.Mode.LINES,
+            1536,
+            false,
+            false,
+            RenderType.CompositeState.builder()
+                    .setShaderState(RENDERTYPE_DISTANCE_LINES_SHADER)
+                    .setLineState(new RenderStateShard.LineStateShard(OptionalDouble.empty()))
+                    .setLayeringState(VIEW_OFFSET_Z_LAYERING)
+                    .setTransparencyState(TRANSLUCENT_TRANSPARENCY)
+                    .setOutputState(ITEM_ENTITY_TARGET)
+                    .setWriteMaskState(COLOR_DEPTH_WRITE)
+                    .setCullState(NO_CULL)
+                    .createCompositeState(false)
+    );
 
     protected static final Function<ResourceLocation, RenderType> ENTITY_TRANSLUCENT_CULL_NO_DEPTH = Util.memoize(
             p_286165_ -> {
@@ -113,5 +136,9 @@ public class RenderTypes extends RenderStateShard {
 
     public static RenderType srcMinusOne(ResourceLocation location) {
         return SRC_MINUS_ONE.apply(location);
+    }
+
+    public static RenderType distanceLines() {
+        return DISTANCE_LINES;
     }
 }
